@@ -42,10 +42,10 @@ function randomInteger(min, max) {
 function setDelay(difficulty) {
   if (easy) {
     let easy = 1500;
-  } if else (normal) {
+  } else if (normal) {
     let normal = 1000;
-  } else (hard) {
-    let hard = 888
+  } else (hard) => {
+    let hard = 888;
   }
   
   return setDelay();
@@ -100,7 +100,7 @@ function chooseHole(holes) {
 */
 function gameOver() {
   // TODO: Write your code here
-  if (time > 0:) {
+  if (time > 0) {
      timeoutId = showUp()
       return timeoutId
   } else {
